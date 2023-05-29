@@ -1,0 +1,55 @@
+*{
+    font-family: 'Cabin', sans-serif !important; 
+}
+
+
+body {
+    background-image: url("https://images.adsttc.com/media/images/5d9f/b909/284d/d107/7900/0136/newsletter/cepezed_bus_station_Tilburg_lucas_van_der_wee_03.jpg?1570748653");
+    background-size: cover ;
+    font-weight: bold;
+    text-align: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 10px black
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: rgba(0, 0, 0, 0.6);
+}
+#increment-btn:hover{
+    background: rgba(175, 0, 0, 0.6);
+}
+#save-btn {
+    background: rgba(0, 0, 0, 0.6);
+}
+#save-btn:hover{
+    background: rgba(0, 175, 0, 0.6);
+}
